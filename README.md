@@ -7,18 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Sistem Manajemen Karyawan Laravel
+# Sistem Manajemen Karyawan Laravel
 
 Ini adalah aplikasi web yang dibangun dengan Laravel untuk mengelola data karyawan dan lokasi. Aplikasi ini memungkinkan pengguna untuk menambah, memperbarui, mencari, dan memfilter data karyawan.
 
-# Fitur
+## Fitur
 
     Operasi CRUD untuk Karyawan dan Lokasi
     Fungsi pencarian dengan filter
     Opsi pengurutan data karyawan dan lokasi
     Filter khusus untuk karyawan berusia lebih dari 28 tahun yang berlokasi di Jakarta
 
-# Prasyarat
+## Prasyarat
 
 Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
 
@@ -27,20 +27,20 @@ Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
     MySQL atau sistem manajemen basis data lainnya terinstal
     Node.js dan NPM terinstal untuk ketergantungan frontend
 
-# Instalasi
+## Instalasi
 
 Ikuti langkah-langkah berikut untuk mengatur aplikasi secara lokal:
 1. Clone repositori:
-
+```
     git clone https://github.com/usernameanda/nama-repository.git
     cd nama-repository
-
+```
 2. Instal dependensi:
-
+```
     composer install
-    npm install
-
-3. Buat file .env:
+   npm install
+```
+5. Buat file .env:
 
 Salin file .env.example menjadi .env dan sesuaikan variabel lingkungan berikut:
 
@@ -48,16 +48,14 @@ Salin file .env.example menjadi .env dan sesuaikan variabel lingkungan berikut:
 
 Atur konfigurasi basis data:
 
-    env
-    
     DB_DATABASE=nama_database_anda
     DB_USERNAME=username_database_anda
     DB_PASSWORD=password_database_anda
 
 4. Generate application key:
-   
+```
     php artisan key:generate
-
+``` 
 6. Jalankan migrasi:
 
 Siapkan basis data dengan menjalankan migrasi:
