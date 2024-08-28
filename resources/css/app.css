@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-primary {
+    box-shadow: 11px 11px 0 #f97316;
+    transition: 0.5s;
+}
