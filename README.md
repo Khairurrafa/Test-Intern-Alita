@@ -13,19 +13,19 @@ Ini adalah aplikasi web yang dibangun dengan Laravel untuk mengelola data karyaw
 
 ## Fitur
 
-    Operasi CRUD untuk Karyawan dan Lokasi
-    Fungsi pencarian dengan filter
-    Opsi pengurutan data karyawan dan lokasi
-    Filter khusus untuk karyawan berusia lebih dari 28 tahun yang berlokasi di Jakarta
+Operasi CRUD untuk Karyawan dan Lokasi
+Fungsi pencarian dengan filter
+Opsi pengurutan data karyawan dan lokasi
+Filter khusus untuk karyawan berusia lebih dari 28 tahun yang berlokasi di Jakarta
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
 
-    PHP 8.0+ terinstal di mesin lokal Anda
-    Composer terinstal secara global
-    MySQL atau sistem manajemen basis data lainnya terinstal
-    Node.js dan NPM terinstal untuk ketergantungan frontend
+PHP 8.0+ terinstal di mesin lokal Anda
+Composer terinstal secara global
+MySQL atau sistem manajemen basis data lainnya terinstal
+Node.js dan NPM terinstal untuk ketergantungan frontend
 
 ## Instalasi
 
